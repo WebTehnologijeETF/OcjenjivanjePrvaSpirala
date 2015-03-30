@@ -1,0 +1,43 @@
+<!doctype html>
+ <html ng-app="app">
+<head>
+	<title>SpiderCode</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-tamni">
+			<ul>
+				<li class="no-hover"><a href="#" class="logo"><img src="img/Logo_white.png">Code</a></li>
+				<li class="active"><a href="#/">Home</a></li>
+				<li><a href="#/About">About</a></li>
+				<li><a href="#/Contacts">Contact</a></li>
+				<!--For window resize test<li><a href="">Jos Nesto</a></li>
+				<li><a href="">Jos Nesto</a></li>
+				<li><a href="">Jos Nesto</a></li>
+				<li><a href="">Jos Nesto</a></li>-->
+			</ul>
+			<ul style="float:right;">
+				<li><a href="#/ChooseServer">Please, <em>Log in!</em></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	     <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+
+            <!-- angular I love you :P  -->
+            <!-- I am so happyyyyyyyyy XD -->
+            <div ng-view></div>
+
+        </div>
+
+	<footer class="navbar navbar-small" id="fBottom">
+		Copyright © Sumejja Porca &amp; Luka Pejovic
+	</footer>
+</body>
+</html>

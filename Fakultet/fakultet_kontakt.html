@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> ITFakultet::Kontakt </title>
+<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+
+<div class="okvir">
+	<div id="zaglavlje">
+		<h1> Fakultet </h1>
+		<div id="login">
+			<a href="#"> Log in </a>
+		</div>
+	</div>
+
+	<div class="glavni_meni">
+		<ul>
+			<li><a href="fakultet_naslovna.html">Početna</a></li>
+			<li><a href="#">O fakultetu</a></li>
+			<li><a href="fakultet_studij.html">Studij</a></li>
+			<li><a href="#">Obavještenja</a></li>
+			<li><a href="fakultet_partneri.html">Partneri</a></li>
+			<li class="zadnji_u_meniju"><a href="fakultet_kontakt.html">Kontakt</a></li>
+		</ul>
+	</div>
+	
+	<div id="baner"></div>
+
+	<div id="kontakt">
+		<h3>Kontaktirajte nas</h3>
+		<p> Ukoliko imate bilo kakvih pitanja vezanih za upis ili neki od naših programa, slobodno nas kontaktirajte! </p>
+		<div id="forma">
+			<form action=index.php method=get>
+			<label for="email"> E-mail adresa: </label> 
+			<input type="text" name="email" id="email">
+			<label for="biraj">	Odaberite: </label>
+				<select id="biraj">
+					<option value="pitanje"> Pitanje </option>
+					<option value="sugestija"> Sugestija </option>
+				</select>
+			<br>
+			<div id="pitanje">
+				<label for="upit"> Unesite svoj komentar ili pitanje: </label><br> 
+				<input type=text name=email id="upit">
+			</div>
+			<button type="button"> Pošalji </button>
+			</form>
+		</div>
+	</div>
+
+	<div id="podnozje"><p>Copyright &copy; IT Fakultet 2015.</p></div>
+
+</div>
+</body>
+</html>

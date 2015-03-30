@@ -1,0 +1,267 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+*{
+margin:0;
+padding:0;
+}
+body{
+    background:black;
+}
+#zaglavlje{
+ margin:0 auto;
+ font-family:Lobster;
+ color:white;
+ text-align:center;
+ margin-top:10px;
+ padding:0;
+ font-size:50%;
+
+}
+#zaglavlje img {
+
+    padding: 0;
+
+}
+#zaglavlje p{
+    padding: 0;
+	display: inline;
+    position:relative;
+	margin-left:-6.5%;
+}
+
+
+#meni{
+width:70%;
+margin:0 auto;
+padding: 0;
+text-align:center;
+font-size:medium;
+
+
+ }
+
+#meni ul{
+
+list-style-type: none;
+    margin:0 22%;
+    padding: 0;
+	margin-top:12px;
+background:#292929;
+}
+#meni li{
+
+list-style-type: none;
+    margin: 1% auto;
+    padding: 0;
+	display: inline;
+	background:white;
+}
+#meni a{
+	width:100%;
+	height:100%;
+    color:white;
+    text-decoration: none;
+	background:#292929;
+    text-transform: uppercase; 
+ 
+}
+
+#meni a:hover{
+background:rgba(111,111,111,0.6)
+}
+
+#dno {
+position: fixed;
+	bottom:0;
+	height:25px;
+	left:25%;
+	width: 50%;
+	margin:0 auto;
+	display:block;
+}
+#dno ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align:center;
+	}
+	#dno li{
+
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline;
+
+	
+}
+#dno a{
+	text-align:center;
+    color:white;
+    text-decoration: none;
+    border-left: 2px solid ;
+	border-color: white;
+    box-sizing: border-box;
+
+  
+
+	 
+}
+#pred {
+  margin-left:15%;
+  margin-top:3%;
+  padding:0;
+}
+
+#glavni {
+    margin: 0 auto;
+    width:69%;
+    padding: 0;
+	margin-top:3%;
+	background:#292929;
+	margin-left:21%;
+    vertical-align: text-top;
+    text-align: left;
+
+	border: 2px solid white;
+    color:white;
+
+	
+}
+
+
+.author{
+	position:relative;
+	margin:3px;
+	font-size:70%;
+	text-align:left;
+	
+	}
+
+.news{
+padding:15px;
+border:2px solid white;
+    text-decoration: none;
+    color:white;
+	text-align:justify;
+	border:2px solid white;
+	display:inline-block;
+}
+
+
+.news:hover {
+	background:rgb(111, 111, 111);
+	}
+	
+	.news img{
+	float:left;
+	width:20%;
+	margin:0 1%;
+	height:auto;
+	}
+	
+#forma {
+position:relative;
+color:white;
+width:35%;
+height:40%;
+margin:1% auto;
+    text-align:right;
+margin-right:45%;
+  padding:0;
+
+}
+
+#forma form {
+position:relative;
+width:100%;
+height:100%;
+}
+
+
+#forma form textarea {
+display:block;
+float:right;
+width:173px;
+    padding: 3px;}
+
+.send{
+float:right;
+display:block;
+padding:10px;
+bottom:0px;
+}
+
+
+#linkovi{
+width:60%;
+margin:0 auto;
+margin-top:2%;
+
+
+}
+
+
+#linkovi ul{
+
+list-style:none;
+list-style-image:url("images/ikona.png");
+ padding-left:0;   
+
+
+}
+
+#linkovi li{ 
+ list-style-position:inside;
+ text-align:left;
+margin-left:20%;	
+}
+
+#linkovi a{
+color:white;
+    text-decoration: none;
+	background:#292929;
+    text-transform: uppercase;
+
+	
+}
+
+		
+	#tabele{
+	height:800px;
+	width:48%;
+	margin:0 auto;
+	padding:45px;
+	}
+#tabele	table{
+	color:white;
+	font-weight:bold;
+	text-align:Center;
+	border:solid white;
+	border-spacing:0px;
+	padding:15px;
+   
+	}
+	#tabele td{
+	
+	width:250px;
+	
+	}
+	
+	thead tr:hover{
+background:none;
+}
+	
+	tr:hover {
+background:rgb(111, 111, 111);
+}
+
+
+
+	#tabele img{
+	height:90px;
+	width:90px;
+	
+	}
+	
+	

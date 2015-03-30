@@ -1,0 +1,221 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+body{
+    background-color: white;
+}
+
+
+
+/* Image styling */
+
+#aparat_slika{
+    float:right;
+}
+
+#logo_slika{
+    float:left;
+}
+
+#navbar_bg{
+    width: 100%;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+#footer_image{
+    width: 100%;
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+/* Text styling */
+
+#naziv_firme{
+    font-family: 'Roboto', bold;
+    font-size: 30pt;
+    margin-top: 10px;
+}
+
+#footer_text{
+    position: fixed;
+    bottom:0;
+    left: 43%;
+    margin-bottom: 20px;
+    z-index: 100;
+    text-align: center;
+}
+
+#djelatnost_firme{
+    font-family: 'Roboto', italic;
+    font-size: 10pt;
+    margin-top: -40px;
+    color: black;
+}
+
+/* Div styling */
+
+#wrapper_div{
+    position: relative;
+}
+
+#header_div{
+    height: 150px;
+    background-color: #e6e1e1;
+    border: solid 1px black;
+}
+
+#navbar_div{
+    position:fixed;
+    top:170px;
+    left:183px;
+    border: solid 1px black;
+    background-color: #e6e1e1;
+}
+
+#navbar_containter{
+    font-size: 0;
+}
+
+#navbar_div ul{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#navbar_div ul li{
+    margin: 0;
+    padding: 60px;
+    display: inline;
+}
+#navbar_div  a:visited{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#navbar_div ul a:active{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#navbar_div ul a:hover{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #227755;
+}
+
+#footer_div{
+    position: fixed;
+    bottom: 0;
+    left: 183px;
+    border: solid 1px black;
+}
+
+#footer_container{
+    position:relative;
+}
+
+#table_container{
+    position:relative;
+}
+
+#table_div{
+    border: solid 1px black;
+    background-color: #e6e1e1;
+    position:fixed;
+    top: 234px;
+    width: 1000px;
+    height: 60%;
+    overflow: auto;
+}
+
+
+/* Klase */
+
+.djelatnost{
+    font-family: 'Roboto', italic;
+    font-size: 10pt;
+    color: black;
+}
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.news_header{
+    font-family: 'Roboto', italic;
+    font-size: 13pt;
+    color: black;
+    padding-left: 10px;
+
+}
+
+.news_item{
+    font-family: 'Roboto', normal;
+    font-style: italic;
+    font-size: 10pt;
+    color: black;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.detaljnijeLink{
+    float:right;
+    font-family: 'Roboto', normal;
+    font-size: 10pt;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.newsNotOne{
+    margin-top:5px;
+}
+
+.tableStyle{
+    margin: 0 auto;
+    font-family: 'Roboto', normal;
+    font-size: 10pt;
+    color: black;
+    width: 80%;
+}
+
+.tableHeaders{
+    text-align: center;
+    font-family: 'Roboto', normal;
+    color: black;
+}
+
+.tabledata{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', normal;
+    font-size: 10pt;
+    color: black;
+    border: solid 1px black;
+    border-spacing: 0px;
+}
+
+.tableheaderdata{
+    border: solid 1px black;
+    text-align: center;
+}
+
+.headerRow{
+    text-align: center;
+    border: solid 1px black;
+}

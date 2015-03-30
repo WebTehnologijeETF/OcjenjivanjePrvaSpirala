@@ -1,0 +1,25 @@
+﻿<section>
+     <div id="menu-left">
+
+      <ul id= "project-list"><!--Lista projekata svih(bit ce posebno definisano za zamger sta ce se smatrati projektom - prije da je ovo folder gdje se sve nalazi) i svi ce se uvijek odmah otvoriti-->
+        <section id="project-listed" ng-repeat = "project in Projects"> 
+           <li> <a href = "#" > {{project.name}} </a> 
+            <ul id="file-list" >
+            <li ng-repeat = "file in project.files"> 
+                <a href = "#" >{{file}}</a>
+            </li>
+
+            </ul>
+           </li>  
+         </section>
+      </ul>
+
+        
+     </div>
+
+         <div id="main-right">
+         <div id="editor">
+             
+         </div>
+     </div>
+</section>
